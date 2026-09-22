@@ -3,8 +3,9 @@ body {
 }
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
+  font-style: italic;
 }
 
 h2 {
@@ -26,6 +27,7 @@ img {
 
 .username {
   font-weight: bold;
+  text-align: center;
 }
 
 .profile {
@@ -39,4 +41,32 @@ img {
 
 .info {
   text-align: left;
+}
+
+.school-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 50px;   
+  height: 50px;
+}
+
+.Intro {
+text-align: center;
+}
+
+.course {
+  font-size: medium;
+  font-style: arial;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid #cccccc;
+  padding: 20px;
 }
