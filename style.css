@@ -40,31 +40,3 @@ img {
 .info {
   text-align: left;
 }
-
-button {
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:first-of-type {
-  background-color: #4CAF50;
-  color: white;
-}
-
-button:last-of-type {
-  background-color: #f44336;
-  color: white;
-}
-
-.question {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 100vh;
-}

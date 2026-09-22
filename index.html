@@ -14,39 +14,5 @@
     <div class="info">
       <p class="username">Michael Francis G. Virgo</p>
       <p>BS Computer Science - First Year</p>
-      <p>Are you Kassy?</p>
     </div>
   </div>
-<div class="question">
-  <p id="question-text">Do you still want us to continue?</p>
-  <button onclick="sayYes()">Yes</button>
-  <button id="no-btn" onmouseover="moveButton()">No</button>
-</div>
-
-<script>
-let yesCount = 0;
-
-function sayYes() {
-  yesCount++;
-  const questionText = document.getElementById("question-text");
-
-  if (yesCount === 1) {
-    questionText.innerText = "Will you try it out again with me?";
-  } else if (yesCount === 2) {
-    questionText.innerText = "aweee thankyou baby:( miss you so much my baby ko :(";
-  }
-}
-
-function moveButton() {
-  const btn = document.getElementById("no-btn");
-  const maxX = window.innerWidth - btn.offsetWidth;
-  const maxY = window.innerHeight - btn.offsetHeight;
-
-  const randomX = Math.random() * maxX;
-  const randomY = Math.random() * maxY;
-
-  btn.style.position = "fixed";
-  btn.style.left = randomX + "px";
-  btn.style.top = randomY + "px";
-}
-</script>
