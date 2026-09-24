@@ -9,13 +9,14 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: white;
     text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+  color: white;
 }
 
 img {
@@ -69,4 +70,38 @@ text-align: center;
   background-color: rgb(0, 0, 0);
   border-bottom: 1px solid #cccccc;
   padding: 20px;
+}
+
+body {
+  background-image: url("images/GGEZ.jpg");
+}
+
+.projects-container {
+  display: none;       
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(0, 0, 10);
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 20px auto 0 auto;
+}
+
+.project-btn {
+  background-color: rgb(0, 0, 10);
+  color: white;
+  font-size: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #02083a;
 }
