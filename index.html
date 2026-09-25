@@ -6,32 +6,52 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="header">
+<header class="header">
   <h1>Welcome to my Portfolio</h1>
-</div>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#view-projects">Projects</a>
+  </nav>
+</header>
   <div class="school-header"><img src="images/dame.png" alt="School Logo" class="logo">
   <h2>Notre Dame of Dadiangas University</h2>
   </div>
 
-  <div class="profile">
+  <section id="about" class="profile">
     <img src="images/images.jpg" alt="Image of Michael">
     <div class="info">
       <p class="Intro">Hi I'm</p>
       <p class="username">Michael Francis</p>
-      <div><p class="course">BS Computer Science - First Year</p>
-      </div>
+      <div><p class="course">BS Computer Science - First Year</p> </div>
     </div>
+    </section>
+   <section id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <p class="Skill">C++</p>
+    <p class="Skill">HTML</p>
+    <p class="Skill">CSS</p>
+    <p class="Skill">JavaScript</p>
   </div>
-<div id="projects" class="projects-container">
-  <div class="project-card">
-  <h3>Confess up</h3>
-  <p>A simple web built with JavaScript.</p>
-  <a href="Projects/index.html" class="project-btn">Press me</a>
-</div>
-</div>
-<button class="project-btn" onclick="toggleProjects()">View My Projects</button>
+</section>
+<section id="projects" class="projects-container">
+    <div class="project-card">
+        <h3>Confess up</h3>
+        <p>A simple web built with JavaScript.</p>
+        <a href="Projects/index.html" class="project-btn">Press me</a>
+    </div>
+</section>
+
+<button id="view-projects" class="project-btn" onclick="toggleProjects()">
+  View My Projects
+</button>
+
+<footer>
+    <p>© 2026 Michael Francis | My Portfolio</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
-
 </html>
